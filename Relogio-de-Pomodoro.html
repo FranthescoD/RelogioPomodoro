@@ -1,0 +1,51 @@
+<header> 
+<title> Relogio Pomodoro </title>
+<link rel="icon" href="https://www.iconsdb.com/icons/preview/white/clock-xxl.png" type = "image/x-icon">
+</header>
+<body>
+<div class='front' id="front">
+<button type="button" onclick="Pomodoro()" id="pomodoro">Pomodoro</button>
+<button type="button" onclick="Bcurta()" id="pc">Pausa curta</button>
+<button type="button" onclick="Blonga()" id="pl">Pausa longa</button>
+<div id="timer"></div>
+<button type="button" onclick="updateButton()" id="pause"><p id="textoTimer">Iniciar</p></button>
+<div id="timer2"> 
+<button type="button" onclick="Clear()"> <p id="textoClear">Limpar Marcações</p></button>
+</div>
+<p id="Marcaçoes">Pausas:</p> 
+</div> <!-fechamento do front -!>
+
+<!-  <script src="debug.js"/>    
+<script src="PomodoroScript.js"> </script> 
+
+<style>  
+body {
+margin: auto;
+background-color: #000000;
+font-size: 35px;
+color: white;
+}
+
+.front { 
+height: 500px;
+padding: 10px;
+border: 15px solid #808080;
+background-color: ##0f0f0f;
+text-align: center;
+margin: 40px;
+
+}
+
+button{
+background-color: #0f0f0f;
+border: 5px solid #ffffff;
+color: white;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+margin: 5px;
+}
+</style>
+
+
+</body>
